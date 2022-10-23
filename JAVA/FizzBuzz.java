@@ -28,6 +28,5 @@ public class FizzBuzz {
                     ? " Buzz":"";
             System.out.println(i + message );
         }
-
     }
 }
