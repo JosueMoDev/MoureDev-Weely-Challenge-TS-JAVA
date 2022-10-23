@@ -1,4 +1,3 @@
-package JAVA;
 /*
  * Reto #0
  * EL FAMOSO "FIZZ BUZZ"
