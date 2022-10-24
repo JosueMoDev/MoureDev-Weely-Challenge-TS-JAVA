@@ -18,7 +18,9 @@
  *
  */
 for (let index = 1; index <= 100; index++) {
-    (index % 3 === 0 && index % 5 === 0) ? console.log(index, 'Fizz-Buzz') : (index % 3 === 0)
-    ? console.log(index, 'Fizz') : (index % 5 === 0)
-        ? console.log(index, 'Buzz'): console.log(index)
+    const message = (index % 3 === 0 && index % 5 === 0)
+    ? 'Fizz-Buzz' : (index % 3 === 0)
+    ?'Fizz': (index % 5 === 0)
+    ? 'Buzz' : ''
+    console.log(index, message);
 }
